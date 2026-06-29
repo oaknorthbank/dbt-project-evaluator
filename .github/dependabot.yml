@@ -20,6 +20,10 @@ updates:
       interval: daily
       time: "09:00"
       timezone: Europe/London
+    cooldown:
+      default-days: 3
+      exclude:
+        - onb*
     open-pull-requests-limit: 10
 
   - package-ecosystem: github-actions
@@ -31,4 +35,6 @@ updates:
       interval: daily
       time: "09:00"
       timezone: Europe/London
+    cooldown:
+      default-days: 3
     open-pull-requests-limit: 10
